@@ -74,9 +74,7 @@ const DisplayForm = ({ form, isPreview , status="none"}) => {
                 handleChange={handleChange}
               />
             ))}
-            <Button variant="contained" type="submit">
-              Submit
-            </Button>
+
           </Box>
         </Paper>
       )}
